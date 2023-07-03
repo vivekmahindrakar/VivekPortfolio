@@ -4,11 +4,13 @@ const Header = () => {
     return (
     <header className="header">
         <nav className="nav container">
-                <a href="index.html" className="nav__logo">Vivek</a>
+                <a href="index.html" className="nav__logo">
+                    Vivek
+                </a>
             <div className="nav__menu">
-                  <ul className="nav__list grid">
+                  <ul className="nav__list">
                     <li className="nav__item">
-                        <a href="#home" className="nav__link">
+                        <a href="#home" className="nav__link active-link">
                          <i className="uil uil-estate nav__icon"></i> Home
                         </a>
                     </li>
@@ -38,7 +40,7 @@ const Header = () => {
                         </a>
                     </li>
                 </ul>
-                <i class="uil uil-estate nav__close"></i>
+                <i class="uil uil-times nav__close"></i>
             </div>
             <div className="nav__toggle">
              <i class="uil uil-apps"></i>
