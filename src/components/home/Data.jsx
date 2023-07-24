@@ -55,6 +55,7 @@ const Data = () => {
           </h1>
           <h3 className="home__subtitle">Visual Designer</h3>
           <p className="home__description">description in data.jsx line 57</p>
+          
          <a href="#contact" className="button button--flex">
             Say Hello
             <svg
