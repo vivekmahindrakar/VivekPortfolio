@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 import "./testimonials.css";
 import { Data } from "./Data";
 
@@ -54,3 +54,4 @@ const Testimonials = () => {
     );
 };
 export default Testimonials
+*/

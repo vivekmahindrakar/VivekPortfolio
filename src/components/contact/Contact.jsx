@@ -9,7 +9,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_mijmb83', 'template_qdekb4g', form.current, 'GN3v7y8lOFATDYnQZ')
+    emailjs.sendForm('service_p58glcu', 'template_oc02og8', form.current, 'x-UevM6QQ44QiO6Kp')
       e.target.reset()
   };
 
@@ -42,12 +42,12 @@ const Contact = () => {
                 </div>
 
                 <div className="contact__card">
-                    <i className="bx bxl-messenger contact__card-icon"></i>
+                    <i className="bx bxl-twitter contact__card-icon"></i>
 
-                    <h3 className="contact__card-title">Messenger</h3>
-                    <span className="contact__card-data">user.fb123</span>
+                    <h3 className="contact__card-title">Twitter</h3>
+                    <span className="contact__card-data">Twitter</span>
 
-                    <a href="https://m.me/crypticalcoder" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                    <a href="https://twitter.com/VMahindrak54551" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                 </div>
             </div>
         </div>

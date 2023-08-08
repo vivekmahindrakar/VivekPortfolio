@@ -29,7 +29,7 @@ const Frontend = () => {
 
         <div>
             <h3 className="skills__name">JavaScript</h3>
-            <span className="skills__level">Advanced</span>
+            <span className="skills__level">Intermediate</span>
         </div>
         </div>
 
@@ -40,8 +40,8 @@ const Frontend = () => {
         <i class="uil uil-comment-verify"></i>
 
         <div>
-            <h3 className="skills__name">Bootstrap</h3>
-            <span className="skills__level">Advanced</span>
+            <h3 className="skills__name">Tailwing</h3>
+            <span className="skills__level">Intermediate</span>
         </div>
         </div>
 
@@ -59,7 +59,7 @@ const Frontend = () => {
 
         <div>
             <h3 className="skills__name">React</h3>
-            <span className="skills__level">Advanced</span>
+            <span className="skills__level">Intermediate</span>
         </div>
         </div>
         

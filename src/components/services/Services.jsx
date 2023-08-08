@@ -17,7 +17,7 @@ const Services = () => {
                 <div>
                     <i className="uil uil-web-grid services__icon"></i>
                     <h3 className="services__title">
-                        Product <br/> Designer</h3>
+                    Website Developer <br/> UI/UX</h3>
                 </div>
 
                 <span onClick={() => toggleTab(1)}>View More <i className="uil uil-arrow-right services__button-icon"></i></span>
@@ -26,8 +26,8 @@ const Services = () => {
                     <div className="services__modal-content">
                         <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
-                        <h3 className="services__modal-title">Product Designer</h3>
-                        <p className="services__modal-description">Service with more than 3 years of experience.Providing quality work to clients and companies.</p>
+                        <h3 className="services__modal-title">Website Developer UI/UX</h3>
+                        <p className="services__modal-description">Providing quality work to clients and companies.</p>
 
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
@@ -63,7 +63,7 @@ const Services = () => {
             <div className="services__content">
                 <div>
                     <i className="uil uil-arrow services__icon"></i>
-                    <h3 className="services__title">Ui/Ux <br/> Designer</h3>
+                    <h3 className="services__title">Flutter <br/> Developer</h3>
                 </div>
 
                 <span  onClick={() => toggleTab(2)} className="services__button">View More <i className="uil uil-arrow-right services__button-icon"></i></span>
@@ -72,8 +72,8 @@ const Services = () => {
                     <div className="services__modal-content">
                         <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
-                        <h3 className="services__modal-title">Ui/Ux Designer</h3>
-                        <p className="services__modal-description">Service with more than 3 years of experience.Providing quality work to clients and companies.</p>
+                        <h3 className="services__modal-title">Flutter Developer</h3>
+                        <p className="services__modal-description">Providing quality work to clients and companies.</p>
 
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
@@ -109,7 +109,7 @@ const Services = () => {
             <div className="services__content">
                 <div>
                     <i className="uil uil-edit services__icon"></i>
-                    <h3 className="services__title">Visual <br/> Designer</h3>
+                    <h3 className="services__title">Android <br/> Developer</h3>
                 </div>
 
                 <span onClick={() => toggleTab(3)} className="services__button">View More <i className="uil uil-arrow-right services__button-icon"></i></span>
@@ -118,8 +118,8 @@ const Services = () => {
                     <div className="services__modal-content">
                         <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
-                        <h3 className="services__modal-title">Visual Designer</h3>
-                        <p className="services__modal-description">Service with more than 3 years of experience.Providing quality work to clients and companies.</p>
+                        <h3 className="services__modal-title">Android Developer</h3>
+                        <p className="services__modal-description">Providing quality work to clients and companies.</p>
 
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">

@@ -53,8 +53,9 @@ const Data = () => {
                   ></path>
           </svg>
           </h1>
-          <h3 className="home__subtitle">Visual Designer</h3>
-          <p className="home__description">description in data.jsx line 57</p>
+          <h3 className="home__subtitle">Software Engineer</h3>
+          <p className="home__description">Hello folks,
+This is Vivek Mahindrakar, a highly motivated computer enthusiast, a freelancer, pursuing B.E in Information Technology. My interest lies in the fields of competitive programming,Full Stack Web development and Data science</p>
           
          <a href="#contact" className="button button--flex">
             Say Hello

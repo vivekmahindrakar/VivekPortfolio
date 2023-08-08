@@ -6,8 +6,10 @@ import About from './components/about/About';
 import Skills from './components/skills/Skills';
 import Services from './components/services/Services';
 import Qualification from './components/qualification/Qualification';
-import Testimonials from './components/testimonials/Testimonials';
+import Portfolio from './components/portfolio/portfolio';
+//import Testimonials from './components/testimonials/Testimonials'; <Testimonials/> 
 import Contact from './components/contact/Contact';
+
 import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
 const App = () => {
@@ -21,8 +23,9 @@ const App = () => {
       <Skills/>
       <Services/>
       <Qualification/>
-      <Testimonials/>
+      <Portfolio/>
       <Contact/>
+        
       
     </main>
     <Footer/>
