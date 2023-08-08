@@ -55,7 +55,7 @@ const Data = () => {
           </h1>
           <h3 className="home__subtitle">Software Engineer</h3>
           <p className="home__description">Hello folks,
-This is Vivek Mahindrakar, a highly motivated computer enthusiast, a freelancer, pursuing B.E in Information Technology. My interest lies in the fields of competitive programming,Full Stack Web development and Data science</p>
+This is Vivek Mahindrakar, a highly motivated computer enthusiast, a freelancer, B.E in Information Technology. My interest lies in the fields of competitive programming,Full Stack Web development and Data science</p>
           
          <a href="#contact" className="button button--flex">
             Say Hello
