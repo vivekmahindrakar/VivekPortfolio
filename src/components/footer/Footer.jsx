@@ -33,7 +33,7 @@ const Footer = () => {
             <i class="bx bxl-github"></i>
             </a>
                 </div>
-                <span className="footer__copy">&#169; Crypticalcoder. All rigths reserved</span>
+                <span className="footer__copy">&#169; @</span>
             </div>
         </footer>
     )
