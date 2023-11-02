@@ -1,73 +1,27 @@
 import React from "react";
+import Skill from "./skill"
 const Backend = () => {
-    return(
+    return (
         <div className="skills__content">
-        <h3 className="skills__title">Backend Developer</h3>
+            <h3 className="skills__title">Backend</h3>
 
-        <div className="skills__box">
-        <div className="skills__group">
-        <div className="skills__data">
-        <i class="uil uil-comment-verify"></i>
+            <div className="skills__box">
+                <div className="skills__group">
+                    <Skill skillName="MongoDB" experience="Intermediate" />
+                    <Skill skillName="Node.js" experience="Intermediate" />
+                    <Skill skillName="Express" experience="Advance" />
 
-        <div>
-            <h3 className="skills__name">MongoDB</h3>
-            <span className="skills__level">Intermediate</span>
+                </div>
+
+                <div className="skills__group">
+
+                    <Skill skillName="Rest API" experience="Intermediate" />
+                    <Skill skillName="Firebase" experience="Advance" />
+                    <Skill skillName="MySQL" experience="Advance" />
+
+                </div>
+            </div>
         </div>
-        </div>
-
-        <div className="skills__data">
-        <i class="uil uil-comment-verify"></i>
-
-        <div>
-            <h3 className="skills__name">Node.js</h3>
-            <span className="skills__level">Intermediate</span>
-        </div>
-        </div>
-
-        <div className="skills__data">
-        <i class="uil uil-comment-verify"></i>
-
-        <div>
-            <h3 className="skills__name">Python</h3>
-            <span className="skills__level">Intermediate</span>
-        </div>
-        </div>
-
-        </div>
-
-        <div className="skills__group">
-        <div className="skills__data">
-        <i class="uil uil-comment-verify"></i>
-
-        <div>
-            <h3 className="skills__name">My SQL</h3>
-            <span className="skills__level">Intermediate</span>
-        </div>
-        </div>
-
-        <div className="skills__data">
-        <i class="uil uil-comment-verify"></i>
-
-        <div>
-            <h3 className="skills__name">Firebase</h3>
-            <span className="skills__level">Intermediate</span>
-        </div>
-        </div> 
-
-        <div className="skills__data">
-        <i class="uil uil-comment-verify"></i>
-
-        <div>
-            <h3 className="skills__name">SQL</h3>
-            <span className="skills__level">Intermediate</span>
-        </div>
-        </div> 
-
-
-
-        </div>
-        </div>
-       </div>
     );
 };
 export default Backend;

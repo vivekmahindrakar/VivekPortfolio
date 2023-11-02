@@ -2,17 +2,21 @@ import React from "react";
 import "./skills.css";
 import Frontend from "./Frontend";
 import Backend from "./Backend";
+import Language from "./Languages"
+import Misc from "./Misc"
 const Skills = () => {
-    return(
+    return (
         <section className="skills section" id="skills">
-         <h2 className="section__title">Skills</h2>
-         <span className="section__subtitle">My Technical Level</span>
+            <h2 className="section__title">Skills</h2>
+            <span className="section__subtitle">My Technical Level</span>
 
-         <div className="skills__container container grid">
-            <Frontend/>
-            <Backend/>
+            <div className="skills__container container grid">
+                <Frontend />
+                <Backend />
+                <Language />
+                <Misc />
 
-         </div>
+            </div>
 
         </section>
     )

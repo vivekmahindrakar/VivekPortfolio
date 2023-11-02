@@ -1,157 +1,58 @@
 import React, { useState } from "react";
+import Service from "./service"
 import "./services.css"
 const Services = () => {
     const [toggleState, steToggleState] = useState(0);
 
     const toggleTab = (index) => {
-        steToggleState(index); 
+        steToggleState(index);
+    }
+    const WebDevServices = {
+        "service1": "Create Responsive Designs",
+        "service2": "Minimalism at its best",
+        "service3": "I position your company brand.",
+        "service4": "Can work with multiple frameworks",
+    }
+    const AndroidDevServices = {
+        "service1": "Create optimised Android Apps",
+        "service2": "Testing applications and troubleshooting issues",
+        "service3": "Performing maintenance on apps as needed",
+        "service4": "Can work with java and kotlin",
+    }
+    const FlutterDevServices = {
+        "service1": "Cross platform development",
+        "service2": "I create ux element interactions",
+        "service3": "Application Migrations support",
+        "service4": "User friendy UI",
+        "service5": "Design and mockups of products for companies.",
     }
 
-    return(
+    return (
         <section className="services section" id="services">
             <h2 className="section__title">Services</h2>
-         <span className="section__subtitle">What I Offer</span>
+            <span className="section__subtitle">What I Offer</span>
 
-         <div className="services__container container grid">
-            <div className="services__content">
-                <div>
-                    <i className="uil uil-web-grid services__icon"></i>
-                    <h3 className="services__title">
-                    Website Developer <br/> UI/UX</h3>
-                </div>
+            <div className="services__container container grid">
+                <Service service_f_name="Website Developer"
+                    service_l_name="UI/UX"
+                    toggleNum={1}
+                    service_heading="Providing quality work to clients and companies"
+                    services={WebDevServices} />
 
-                <span onClick={() => toggleTab(1)}>View More <i className="uil uil-arrow-right services__button-icon"></i></span>
+                <Service service_f_name="Flutter"
+                    service_l_name="Developer"
+                    toggleNum={2}
+                    service_heading="Providing quality work to clients and companies"
+                    services={FlutterDevServices} />
 
-                <div className={toggleState === 1 ? "services__modal active-modal" : "services__modal"}>
-                    <div className="services__modal-content">
-                        <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
+                <Service service_f_name="Android"
+                    service_l_name="Developer"
+                    toggleNum={3}
+                    service_heading="Providing quality work to clients and companies"
+                    services={AndroidDevServices} />
 
-                        <h3 className="services__modal-title">Website Developer UI/UX</h3>
-                        <p className="services__modal-description">Providing quality work to clients and companies.</p>
 
-                        <ul className="services__modal-services grid">
-                            <li className="services__modal-service">
-                                <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I develop the user interface.</p>
-                            </li>
-
-                            <li className="services__modal-service">
-                                <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Web page development.</p>
-                            </li>
-
-                            <li className="services__modal-service">
-                                <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I create ux element interactions.</p>
-                            </li>
-
-                            <li className="services__modal-service">
-                                <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I position your company brand.</p>
-                            </li>
-
-                            <li className="services__modal-service">
-                                <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Design and mockups of products for companies.</p>
-                            </li>
-
-                        </ul>
-                    </div>
-                </div>
             </div>
-
-            <div className="services__content">
-                <div>
-                    <i className="uil uil-arrow services__icon"></i>
-                    <h3 className="services__title">Flutter <br/> Developer</h3>
-                </div>
-
-                <span  onClick={() => toggleTab(2)} className="services__button">View More <i className="uil uil-arrow-right services__button-icon"></i></span>
-
-                <div className= {toggleState === 2 ? "services__modal active-modal" : "services__modal"}>
-                    <div className="services__modal-content">
-                        <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
-
-                        <h3 className="services__modal-title">Flutter Developer</h3>
-                        <p className="services__modal-description">Providing quality work to clients and companies.</p>
-
-                        <ul className="services__modal-services grid">
-                            <li className="services__modal-service">
-                                <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I develop the user interface.</p>
-                            </li>
-
-                            <li className="services__modal-service">
-                                <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Web page development.</p>
-                            </li>
-
-                            <li className="services__modal-service">
-                                <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I create ux element interactions.</p>
-                            </li>
-
-                            <li className="services__modal-service">
-                                <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I position your company brand.</p>
-                            </li>
-
-                            <li className="services__modal-service">
-                                <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Design and mockups of products for companies.</p>
-                            </li>
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div className="services__content">
-                <div>
-                    <i className="uil uil-edit services__icon"></i>
-                    <h3 className="services__title">Android <br/> Developer</h3>
-                </div>
-
-                <span onClick={() => toggleTab(3)} className="services__button">View More <i className="uil uil-arrow-right services__button-icon"></i></span>
-
-                <div className={toggleState === 3 ? "services__modal active-modal" : "services__modal"}>
-                    <div className="services__modal-content">
-                        <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
-
-                        <h3 className="services__modal-title">Android Developer</h3>
-                        <p className="services__modal-description">Providing quality work to clients and companies.</p>
-
-                        <ul className="services__modal-services grid">
-                            <li className="services__modal-service">
-                                <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I develop the user interface.</p>
-                            </li>
-
-                            <li className="services__modal-service">
-                                <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Web page development.</p>
-                            </li>
-
-                            <li className="services__modal-service">
-                                <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I create ux element interactions.</p>
-                            </li>
-
-                            <li className="services__modal-service">
-                                <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I position your company brand.</p>
-                            </li>
-
-                            <li className="services__modal-service">
-                                <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Design and mockups of products for companies.</p>
-                            </li>
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
-         </div>
         </section>
     )
 }

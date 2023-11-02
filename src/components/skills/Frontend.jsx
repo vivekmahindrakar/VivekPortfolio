@@ -1,73 +1,29 @@
 import React from "react";
+import Skill from "./skill"
 const Frontend = () => {
-    return(
-       <div className="skills__content">
-        <h3 className="skills__title">Frontend Developer</h3>
+    return (
+        <div className="skills__content">
+            <h3 className="skills__title">Frontend</h3>
 
-        <div className="skills__box">
-        <div className="skills__group">
-        <div className="skills__data">
-        <i class="uil uil-comment-verify"></i>
+            <div className="skills__box">
+                <div className="skills__box">
+                    <div className="skills__group">
+                        <Skill skillName="HTML" experience="Advance" />
+                        <Skill skillName="CSS" experience="Advance" />
+                        <Skill skillName="Bootstrap" experience="Intermediate" />
 
-        <div>
-            <h3 className="skills__name">HTML</h3>
-            <span className="skills__level">Advanced</span>
-        </div>
-        </div>
+                    </div>
 
-        <div className="skills__data">
-        <i class="uil uil-comment-verify"></i>
+                    <div className="skills__group">
 
-        <div>
-            <h3 className="skills__name">CSS</h3>
-            <span className="skills__level">Advanced</span>
-        </div>
-        </div>
+                        <Skill skillName="UI design" experience="Beginner" />
+                        <Skill skillName="Javascript" experience="Intermediate" />
 
-        <div className="skills__data">
-        <i class="uil uil-comment-verify"></i>
-
-        <div>
-            <h3 className="skills__name">JavaScript</h3>
-            <span className="skills__level">Intermediate</span>
-        </div>
-        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
-        <div className="skills__group">
-
-        <div className="skills__data">
-        <i class="uil uil-comment-verify"></i>
-
-        <div>
-            <h3 className="skills__name">Tailwing</h3>
-            <span className="skills__level">Intermediate</span>
-        </div>
-        </div>
-
-        <div className="skills__data">
-        <i class="uil uil-comment-verify"></i>
-
-        <div>
-            <h3 className="skills__name">Git</h3>
-            <span className="skills__level">Advanced</span>
-        </div>
-        </div>
-
-        <div className="skills__data">
-        <i class="uil uil-comment-verify"></i>
-
-        <div>
-            <h3 className="skills__name">React</h3>
-            <span className="skills__level">Intermediate</span>
-        </div>
-        </div>
-        
-        </div>
-        </div>
-       </div>
-
-
     );
 };
 export default Frontend;
