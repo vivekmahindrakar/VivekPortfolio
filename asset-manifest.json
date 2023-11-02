@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/VivekPortfolio/static/css/main.b11d87dc.css",
-    "main.js": "/VivekPortfolio/static/js/main.f9af151c.js",
+    "main.css": "/VivekPortfolio/static/css/main.3e8defc9.css",
+    "main.js": "/VivekPortfolio/static/js/main.e1039198.js",
     "static/js/787.24fb1bfc.chunk.js": "/VivekPortfolio/static/js/787.24fb1bfc.chunk.js",
     "static/media/botspotAI.jpg": "/VivekPortfolio/static/media/botspotAI.33b770248c343b1c54d5.jpg",
     "static/media/ValueWealth.jpg": "/VivekPortfolio/static/media/ValueWealth.7bff3d849af99692e02a.jpg",
@@ -13,12 +13,12 @@
     "static/media/catelog.jpg": "/VivekPortfolio/static/media/catelog.5485b101627e9b72d3ec.jpg",
     "static/media/ctms.jpg": "/VivekPortfolio/static/media/ctms.95ca2e57e3c2c275963e.jpg",
     "index.html": "/VivekPortfolio/index.html",
-    "main.b11d87dc.css.map": "/VivekPortfolio/static/css/main.b11d87dc.css.map",
-    "main.f9af151c.js.map": "/VivekPortfolio/static/js/main.f9af151c.js.map",
+    "main.3e8defc9.css.map": "/VivekPortfolio/static/css/main.3e8defc9.css.map",
+    "main.e1039198.js.map": "/VivekPortfolio/static/js/main.e1039198.js.map",
     "787.24fb1bfc.chunk.js.map": "/VivekPortfolio/static/js/787.24fb1bfc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b11d87dc.css",
-    "static/js/main.f9af151c.js"
+    "static/css/main.3e8defc9.css",
+    "static/js/main.e1039198.js"
   ]
 }
