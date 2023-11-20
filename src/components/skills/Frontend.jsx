@@ -17,7 +17,9 @@ const Frontend = () => {
                     <div className="skills__group">
 
                         <Skill skillName="UI design" experience="Beginner" />
-                        <Skill skillName="Javascript" experience="Intermediate" />
+
+                        <Skill skillName="State Management" experience="Beginner" />
+                        <Skill skillName="React-Redux" experience="Beginner" />
 
                     </div>
                 </div>

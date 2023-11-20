@@ -17,7 +17,8 @@ const Languages = () => {
                     <div className="skills__group">
 
                         <Skill skillName="Python" experience="Beginner" />
-
+                        <Skill skillName="Javascript" experience="Intermediate" />
+                        <Skill skillName="Dart" experience="Intermediate" />
 
                     </div>
                 </div>
