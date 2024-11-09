@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/VivekPortfolio/static/css/main.3e8defc9.css",
-    "main.js": "/VivekPortfolio/static/js/main.671ab123.js",
+    "main.js": "/VivekPortfolio/static/js/main.ee27c247.js",
     "static/js/787.24fb1bfc.chunk.js": "/VivekPortfolio/static/js/787.24fb1bfc.chunk.js",
+    "static/media/Vivek Resume.pdf": "/VivekPortfolio/static/media/Vivek Resume.356a5ca3d5bd3cb002a9.pdf",
     "static/media/botspotAI.jpg": "/VivekPortfolio/static/media/botspotAI.33b770248c343b1c54d5.jpg",
     "static/media/ValueWealth.jpg": "/VivekPortfolio/static/media/ValueWealth.7bff3d849af99692e02a.jpg",
     "static/media/smartLecture.jpg": "/VivekPortfolio/static/media/smartLecture.642e5bc5a7e1e36fae06.jpg",
-    "static/media/Resume 12.0.pdf": "/VivekPortfolio/static/media/Resume 12.0.eb2ce5162d25d1e76e3e.pdf",
     "static/media/tazakhabar.jpg": "/VivekPortfolio/static/media/tazakhabar.48678f60c8a33b72127e.jpg",
     "static/media/IMG_20230714_223101.jpg": "/VivekPortfolio/static/media/IMG_20230714_223101.d5c5cd59e857f971c578.jpg",
     "static/media/avatar1.PNG": "/VivekPortfolio/static/media/avatar1.c4b15a0fbf93dd3031fc.PNG",
@@ -14,11 +14,11 @@
     "static/media/ctms.jpg": "/VivekPortfolio/static/media/ctms.95ca2e57e3c2c275963e.jpg",
     "index.html": "/VivekPortfolio/index.html",
     "main.3e8defc9.css.map": "/VivekPortfolio/static/css/main.3e8defc9.css.map",
-    "main.671ab123.js.map": "/VivekPortfolio/static/js/main.671ab123.js.map",
+    "main.ee27c247.js.map": "/VivekPortfolio/static/js/main.ee27c247.js.map",
     "787.24fb1bfc.chunk.js.map": "/VivekPortfolio/static/js/787.24fb1bfc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3e8defc9.css",
-    "static/js/main.671ab123.js"
+    "static/js/main.ee27c247.js"
   ]
 }
